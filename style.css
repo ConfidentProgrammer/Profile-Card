@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*, body {
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+body {
+    background-color: #232237;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+svg {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-100%);
+
+}
+.main-card-container {
+    width: 270px ;
+    height: 370px ;
+    /* border: 2px solid white; */
+    margin: 120px auto;
+    border-radius: 8px;
+    background-color: #24283cd0;
+    position: relative;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.158);
+}
+.prof-container {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    border-radius: 50%;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(to right, red, purple);
+}
+.prof-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 6px solid #24283c ;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.body-container {
+    text-align: center;
+    
+    width: 80%;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color:white;
+}
+h2, h3 {
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin: 30px;
+}
+
+h2 {
+    font-size: 1.35rem;
+}
+h3 {
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.281);
+
+}
+.name-head {
+    margin: -15px;
+}
+
+.title-head, .company-head {
+    color: rgba(255, 255, 255, 0.281);
+    font-size: .7rem;
+}
+
+.company-head {
+    margin-top: -20px;
+}
+.at {
+    color: red;
+    font-weight:bold;
+    font-size: .7rem;
+}
+
+button{
+    margin-top: 20px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 7px 15px;
+    font-size: 0.7rem;
+    background-color: #24283c;
+    color: white;
+    border: 1.5px solid red;
+    border-radius: 2px;
+    margin: 5px;
+    transition: all .08s;
+}
+.foll-btn{
+    background-color: red;
+
+}
+.foll-btn:hover , .mess-btn:hover {
+ transform: scale(1.05);
+}
+.skill-container {
+    background-color: #232237;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-100%);
+    font-size: 0.7rem;
+    height: 20%;
+    color: rgba(255, 255, 255, 0.541);
+}
+.arrow {
+    color: red;
+    font-weight: bold;
+    visibility: hidden;
+}
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+.skill-span {
+    padding: 1px;
+    margin: 3px;
+
+}
+
